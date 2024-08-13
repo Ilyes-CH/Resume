@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="./style.css">
+    <title>Ilyes Chaabane</title>
+</head>
+
+<body>
+    <div class="resume-wrapper">
+        <section class="profile section-padding">
+            <div class="container">
+                <div class="picture-resume-wrapper">
+                    <div class="picture-resume">
+                            <img class="image" src="./pdp.jpeg" alt="">
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="name-wrapper">
+                    <h1>Ilyes <br>Chaabane</h1><!-- YOUR NAME AND LAST NAME  -->
+                </div>
+                <div class="clearfix"></div>
+                <div class="contact-info clearfix">
+                    <ul class="list-titles">
+                        <li>Call</li>
+                        <li>Email</li>
+                        <li>Home</li>
+                    </ul>
+                    <ul class="list-content ">
+                        <li>+216 56126611</li> <!-- YOUR PHONE NUMBER  -->
+                        <li><a href="mailto:ilyeschaaabane216@gmail.com">ilyeschaaabane216@gmail.com</a></li> <!-- YOUR EMAIL -->
+                        <li>Tunisia,Tunis</li> <!-- YOUR STATE AND COUNTRY  -->
+                    </ul>
+                </div>
+                <div class="contact-presentation"> <!-- YOUR PRESENTATION RESUME  -->
+                    <ul><li class="bold">About me:</li></ul>
+                    <p class="content" id="content" style="color: black;"> Hello, my name is Ilyes, I am 23 years old and hold a degree in English for Business and Communication. </p>
+                    <span class="button" id="toggleButton">Show More</span>
+                </div>
+                <div class="contact-social clearfix">
+                    <ul class="list-titles">
+                        <li>LinkedIn</li>
+                       
+                    </ul>
+                    <ul class="list-content"> <!-- REMEMBER TO PUT THE URL ON THE HREF TAG  -->
+                        <li><a href="https://www.linkedin.com/in/ilyes-chaabane-53aba8288/">@ilyes-chaabane</a></li> <!-- YOUR TWITTER USER  -->
+                        
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience section-padding">
+            <div class="container">
+                <h3 class="experience-title">CERTIFICATES</h3>
+
+                <div class="experience-wrapper">
+                    <div class="company-wrapper clearfix">
+                        <div class="experience-title">Udemy </div> <!-- JOB TITLE  -->
+                        <div class="time">August 2024</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
+                    </div>
+                    
+                    <div class="job-wrapper clearfix">
+                        <div class="experience-title">Complete Python Developer</div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
+                        <div class="company-description">
+                            <p>Thanks to this course i learnt in depth about python development through various great projects</p> <!-- JOB DESCRIPTION  -->
+                        </div>
+                    </div>
+
+                    <div class="company-wrapper clearfix">
+                        <div class="experience-title">I.S.E.A.H.T</div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
+                        <div class="time">September 2020 - July</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
+                    </div>
+
+                    <div class="job-wrapper clearfix">
+                        <div class="experience-title">English for Business and Communication</div> <!-- JOB TITLE  -->
+                        <div class="company-description">
+                            <p>Univeristy degree from ISEAHT in English for Business and Communication</p> <!-- JOB DESCRIPTION  -->
+                        </div>
+                    </div>
+                <h3 class="experience-title">Experience</h3>
+
+                <div class="experience-wrapper">
+                    <div class="company-wrapper clearfix">
+                        <div class="experience-title">Concentrix</div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
+                        <div class="time">July 2023 - August 2024</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
+                    </div>
+
+                    <div class="job-wrapper clearfix">
+                        <div class="experience-title">Tech Support Agent </div> <!-- JOB TITLE  -->
+                        <div class="company-description">
+                            <p>Learnt so many valuable skills and enhanced my English and communication skills</p> <!-- JOB DESCRIPTION  -->
+                        </div>
+                    </div>
+
+                    <div class="company-wrapper clearfix">
+                        <div class="experience-title">Solo Projects</div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
+                        <div class="time">2020 - Present</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
+                    </div>
+
+                    <div class="job-wrapper clearfix">
+                        <div class="experience-title">Freelance, FullStack development</div> <!-- JOB TITLE  -->
+                        <div class="company-description">
+                            <p>I am constantly developing small to big projects on my own and testing new technologies to expand my knowledge</p> <!-- JOB DESCRIPTION  -->
+                        </div>
+                    </div>
+
+                   
+
+                </div><!--Skill experience-->
+
+                <div class="section-wrapper clearfix">
+                    <h3 class="section-title">Skills</h3> <!-- YOUR SET OF SKILLS  -->
+                    <ul>
+                        <li class="skill-percentage">HTML / HTML5</li>
+                        <li class="skill-percentage">Python</li>
+                        <li class="skill-percentage">Javascript</li>
+                        <li class="skill-percentage">React</li>
+                        <li class="skill-percentage">Eexpress</li>
+                        <li class="skill-percentage">CSS / CSS3 / SASS</li>
+                        <li class="skill-percentage">Flask</li>
+                        <li class="skill-percentage">Go Lang</li>
+
+                    </ul>
+
+                </div>
+
+                <div class="section-wrapper clearfix">
+                    <h3 class="section-title">Hobbies</h3> <!-- DESCRIPTION OF YOUR HOBBIES -->
+                    <p>I am very pationate about technologies and among my hobbies is robotics where i use the power of technologies such as Arduino to build cool projects</p>
+
+                    <p>I always aspire for a healthy lifestyle so you will always find me being active by either weight training or cycling.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="clearfix"></div>
+    </div>
+    <script>
+       document.getElementById('toggleButton').addEventListener('click', function() {
+      var content = document.getElementById('content');
+      var experience = document.getElementById("experience")
+      var fullText = "Hello, my name is Ilyes, I am 23 years old and hold a degree in English for Business and Communication. Over the past year, I have worked as a tech support specialist at Concentrix, where I honed my interpersonal communication skills and improved my ability to work effectively within a team. In addition to my experience in tech support, I possess a solid foundation in Full Stack web development, including proficiency in HTML, CSS, JS, React and Express JS. I also recently completed a comprehensive Python development course on Udemy, further enhancing my technical skill set.";
+      var shortText = "Hello, my name is Ilyes, I am 23 years old and hold a degree in English for Business and Communication.";
+      
+      if (content.textContent === shortText) {
+        content.textContent = fullText;
+        experience.style.minHeight = "125vh";
+        this.textContent = 'Show Less';
+      } else {
+        content.textContent = shortText;
+        experience.style.minHeight = "101vh";
+        this.textContent = 'Show More';
+      }
+    });
+    </script>
+</body>
+
+</html>
